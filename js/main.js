@@ -22,8 +22,6 @@ function createColumn(col){
   columns[4] = createColumn(4);
   columns[2][2] = 'FREE';
 
-  // console.table(columns);
-
   const bingo = [];
   for(let row = 0; row < 5; row++){
     bingo[row] = [];
